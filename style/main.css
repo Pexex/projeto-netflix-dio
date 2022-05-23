@@ -92,6 +92,7 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 35%;
+  
 }
 
 .box-filme {
@@ -103,3 +104,67 @@ header nav a:hover {
 .carrossel-filmes {
     margin-top: 5px;
 }
+
+
+
+/* fazendo as sinopses aparecerem */
+.umbrella, .starwars, .pokemon, 
+.civilwar, .hobbit, .peaky,
+.house, .supernatural, 
+.smallville, .avengers {
+    display: flexbox;
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    align-self: flex-end;
+    padding: 1.3rem 1rem;
+    margin: 0 auto;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+    z-index: 1;    
+}
+
+.box-filme h4 {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.box-filme:hover .umbrella,.box-filme:hover .starwars,.box-filme:hover .pokemon, 
+.box-filme:hover .civilwar,.box-filme:hover .hobbit,.box-filme:hover .peaky,
+.box-filme:hover .house,.box-filme:hover .supernatural,.box-filme:hover 
+.smallville,.box-filme:hover .avengers, .botao:active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.breakingbad {
+    display: none;
+    width: 95vw;
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    text-align: justify;
+    position: relative;
+    bottom: 0;
+    align-self: center;
+    justify-self: flex-start;
+    padding: 1.3rem 1.3rem;
+    margin: 30px 0 10px 0;
+    z-index: 3;
+}
+
+.breakingbad h4 {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.showPage {
+    display: flex;
+    flex-direction: column;
+}
+
