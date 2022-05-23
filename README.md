@@ -7,7 +7,7 @@ Desafio realizado no Bootcamp Carrefour Web Developer da Digital Innovation One 
 2. Dar nova roupagem ao site
 
 #### Desafio parte 1 - Implementar novas Funcionalidades
-**Funcionalidades impementadas**
+**Funcionalidades impementadas:**
 - Botão assistir agora do filme principal leva para a página do trailer
 - Botão mais informações abre uma div com a sinopse do filme principal
   - Feito em Javascript
