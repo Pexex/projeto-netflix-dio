@@ -1,0 +1,185 @@
+body, html {
+  height: 100%;
+}
+.navbar-custom {
+  background-color: #bae2ff;
+}
+
+ .parallax {
+  /* altura total do dispositivo */
+  height: 100%;
+
+  /* Criando efeito paralax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.first-image {
+  /* Imagem de background */
+  background-image: url("../img/mentalflix/saúde\ mental.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-image {
+  /* Imagem de background */
+  background-image: url("../img/mentalflix/b2ap3_medium_Pessoa-ansiosa.jpeg");
+  /* altura total do dispositivo */
+  height: 100%;
+  /* Criando efeito paralax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-image {
+  /* Imagem de background */
+  background-image: url("../img/mentalflix/saude-depressao-20170503-002.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-image {
+  /* Imagem de background */
+  background-image: url("../img/mentalflix/meditação-1.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass {
+  background: rgba( 186, 226, 255, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8px );
+  -webkit-backdrop-filter: blur( 8px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 4rem 2rem;
+}
+
+.glass-content h2 {
+  margin-bottom: 2rem;
+}
+.glass-content p {
+  text-align: justify;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.section h2 {
+  margin-bottom: 2rem;
+}
+
+ .box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrossel-filmes {
+  margin-bottom: 2rem;
+}
+
+/* fazendo as sinopses aparecerem */
+.mente, .redes-sociais, .como-ter, 
+.pandemia, .por-que-nao, .trabalho,
+.brasil, .gatilhos, 
+.habitos, .risco, .treino, .dicas, .mindfullness,
+.pratica-mindfullness, .acalme, .respira, .frequencia,
+.hipnose, .controlar-crise, .como-ajudar, .o-que-e-depressao,
+ .nao-falar-depressao, .sem-remedios, .como-ajudar-depressao, 
+ .habitos-depressao, .pensamentos-negativos, .sintomas-depressao,
+ .depressao-pandemia, .depressao-adolescencia, .causas-depressao,
+ .primeiros-passos, .conectar-presente, .apaixonar-pela-vida,
+ .estresse, .gentil, .dor, .raiva, .potencial,
+ .mantra-amor, .mantra-paz {
+    display: flexbox;
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    align-self: flex-end;
+    padding: 1.3rem 1rem;
+    margin: 0 auto;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+    z-index: 1;    
+}
+
+.box-filme h4 {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.box-filme:hover .mente,.box-filme:hover .redes-sociais,.box-filme:hover .como-ter, 
+.box-filme:hover .pandemia,.box-filme:hover .por-que-nao,.box-filme:hover .trabalho,
+.box-filme:hover .brasil,.box-filme:hover .gatilhos,.box-filme:hover 
+.habitos,.box-filme:hover .risco, .box-filme:hover .treino, .box-filme:hover .dicas, .box-filme:hover .mindfullness, .box-filme:hover .pratica-mindfullness, .box-filme:hover .acalme, .box-filme:hover .respira,
+.box-filme:hover .frequencia, .box-filme:hover .hipnose, .box-filme:hover .controlar-crise,
+.box-filme:hover .como-ajudar, .box-filme:hover .o-que-e-depressao, .box-filme:hover .nao-falar-depressao,
+.box-filme:hover .sem-remedios, .box-filme:hover .como-ajudar-depressao,
+.box-filme:hover .habitos-depressao, .box-filme:hover .pensamentos-negativos,
+.box-filme:hover .sintomas-depressao, .box-filme:hover .depressao-pandemia, 
+.box-filme:hover .depressao-adolescencia, .box-filme:hover .causas-depressao,
+.box-filme:hover .primeiros-passos, .box-filme:hover .conectar-presente,
+.box-filme:hover .apaixonar-pela-vida, .box-filme:hover .estresse,
+.box-filme:hover .gentil, .box-filme:hover .dor, .box-filme:hover .raiva,
+.box-filme:hover .potencial, .box-filme:hover .mantra-amor,
+.box-filme:hover .mantra-paz {
+    visibility: visible;
+    opacity: 1;
+} 
+
+footer {
+  background-color: #a9a9a9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  padding: .7rem;
+}
+
+footer div {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: #fd8585;
+}
+

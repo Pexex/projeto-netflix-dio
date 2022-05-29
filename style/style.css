@@ -1,0 +1,98 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/carrefour.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+
+header h1 {
+    /* definindo o gradiente */
+    background: linear-gradient(45deg, rgba(153,1,147,1) 0%, rgba(11,1,181,1) 50%, rgba(255,0,0,1) 100%);
+
+    /* Recortando o fundo utilizando o texto como máscara */
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    /* Deixando o texto transparente */
+    -webkit-text-fill-color: transparent;
+
+    /* Definindo uma cor caso o gradiente não funcione */
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 50%;
+}
+
+.netflix{
+    text-align: center;
+    margin: 12.7rem 10rem;
+    background-color: #ff0001;
+    color: black;
+    width: 15%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mentalflix {
+    text-align: center;
+    background-color: #a0e0ff;
+    color: black;
+    margin: 13.26rem 10rem;
+    width: 15%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mentalflix:hover {
+    background-color: black;
+    color: #a0e0ff;
+}
+
+.netflix:hover {
+    background-color: black;
+    color: #ff0001;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    padding: 0 0 .8rem 0;
+}
+
+footer div {
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+  }
+  
+  footer a {
+    color: black;
+  }
+  
+  footer a:hover {
+    color: #ff0001;
+  }
+
